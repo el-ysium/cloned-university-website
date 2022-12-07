@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> University Web Design</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/2ed2e6d3b4.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+    <section class="sub-header">
+
+        <nav>
+            <!-- nav bar -->
+
+            <a href="index.html"><img src="images/logo.png" alt=" The school's Logo "></a>
+            <div class="nav-link" id="navlink" >
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html"> HOME</a></li>
+                    <li> <a href="about-us.html"> ABOUT</a></li>
+                    <li> <a href="course.html"> COURSE</a></li>
+                    <li> <a href="blog.html">BLOG</a></li>
+                    <li> <a href="contact-us.html"> CONTACT</a></li>
+                </ul>
+            </div>
+           <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2021</h1>
+
+    </section>
+
+    <!-- Blog Page Content -->
+
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="">  
+                <h2>Our Certificate & Online Programs For 2021</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam consequuntur impedit aliquid deserunt voluptas soluta, eius quae qui? Quam excepturi distinctio, nisi alias qui inventore fugit dicta temporibus neque. Placeat distinctio quaerat nobis ipsam at odit similique corporis quod odio expedita nulla sit possimus culpa, molestias nesciunt, esse ratione alias perspiciatis aliquam quis dolor, eaque rerum voluptas? Dolor voluptatum aliquam delectus nostrum. Quia, sunt doloremque. Ullam eaque natus optio adipisci.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sapiente exercitationem modi officia mollitia ut praesentium laudantium recusandae reiciendis fugiat! Nulla porro ipsa maiores aut voluptatem, molestias enim sint fugit reprehenderit? Impedit repellat delectus magnam rerum nihil ipsum molestias dolore dolor tempora eos ea necessitatibus neque reprehenderit, praesentium blanditiis, quibusdam ab sit. Nesciunt quod fugit dolorem dicta sunt est nam animi repellat rem cupiditate, doloremque quasi saepe voluptas quae similique!</p>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati laboriosam quis tempora. Harum, explicabo doloremque? Deserunt quibusdam ab nihil in, itaque accusantium aspernatur! Asperiores veniam nostrum nam omnis quaerat aliquid atque, minima ab accusantium earum dignissimos ipsam modi laboriosam! Ipsam vitae temporibus voluptas voluptatem veritatis mollitia a magni sequi commodi?</p>
+                <br>
+                <p>Possimus ab doloribus voluptatum animi, aut in officia praesentium fugit eligendi non! Tenetur rerum quo et nobis earum quod nostrum illo fugit nulla aut praesentium consectetur soluta inventore quaerat, beatae voluptatem dolorem ab minus laborum explicabo quos perferendis dolores velit dolore! Dignissimos est quidem deleniti molestiae similique id tenetur nostrum.</p>
+
+                <div class="comment-box">
+                     <h4>Leave A Comment</h4>
+                     <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit"  class="hero-btn red-btn"> POST COMMENT </button>
+                     </form> 
+                </div>
+
+                
+            </div>
+            <div class="blog-right">
+                <h4>Post Categories</h4>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    
+ 
+ <!-- Footer -->
+
+
+ <section class="footer">
+    <h6>About Us</h6>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Enim reiciendis nulla quis ipsum?</p>
+    <div class="icon">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa-regular fa-heart"></i> by Angel</p>
+
+ </section>
+
+
+    <!-- Java script for togglemenu -->
+    <script>
+        var navlink = document.getElementById("navlink");
+        function showMenu (){
+            navlink.style.right ="0"
+        }
+        function hideMenu (){
+            navlink.style.right ="-200px";
+        }
+
+    </script>
+</body>
+</html>
